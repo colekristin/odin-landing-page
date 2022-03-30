@@ -11,4 +11,4 @@ Photo credit -[Here] (https://pixabay.com/photos/lake-mcdonald-glacier-national-
 
 - [Link to the Assignment](https://www.theodinproject.com/lessons/foundations-landing-page)
 
-- [Project] (https://colekristin.github.io/odin-landing-page/)
+- [Link to the Project] (https://colekristin.github.io/odin-landing-page/)
