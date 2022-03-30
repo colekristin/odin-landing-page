@@ -4,7 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", sans-serif;
     /*padding: 0px 100px;*/
     margin: 0;
 }
@@ -47,6 +47,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 25px 0px;
+    gap: 50px;
 }
 
 .desc {
@@ -79,9 +80,26 @@ h1 {
 
 .image {
     display: flex;
-    width: 500px;
+    /*width: 500px;*/
     flex-direction: row;
     justify-content: flex-end;
+    /*max-height: 400px;
+    max-width: 400px;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    width: 100%;*/
+    height: 325px;
+    flex: 1;
+    object-fit: cover;
+}
+
+img {
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
 }
 
 .two {
@@ -93,6 +111,54 @@ h3 {
     font-weight: bolder;
     color: #1F2937;
 }
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    align-items: center;
+}
+
+.box-one , .box-two , .box-three , .box-four {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: lightpink;
+    border-radius: 7px;
+}
+
+.box-one {
+    background-color: #A5C9FA;
+}
+
+.box-two {
+    background-color: #D48ECD;
+}
+
+.box-three {
+    background-color: #551177;
+}
+
+.box-four {
+    background-color: #fd5e53;
+}
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 125px;
+    width: 125px;
+    /*justify-content: center;
+    align-items: center;*/
+    text-align: start;
+}
+
+/*.information-one , .information-two , .information-three , .information-four {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}*/
 
 .three {
     background-color: #E5E7EB;
@@ -118,7 +184,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 .four {
@@ -130,6 +196,7 @@ h3 {
     background-color: #3882F6;
     margin: 30px 125px;
     color: white;
+    border-radius: 5px;
 }
 
 h4 {
@@ -146,7 +213,6 @@ h4 {
     justify-content: space-around;
 }*/
 
-/* need to add button border color white*/
 .button-two {
     border-color: white;
 }
@@ -155,10 +221,6 @@ h4 {
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    margin-top: 50px;
 
-}
-
-/*.container-two {
-    display: flex;
-    flex-direction: column;
 }
